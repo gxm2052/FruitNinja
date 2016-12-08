@@ -1,0 +1,144 @@
+﻿
+@media screen and (orientation: portrait ) {
+	#portrait {display:block;}
+	#fullscreen {display:none;}
+}
+
+@media screen and (orientation: landscape  ) {
+	#portrait {display:none;}
+	#fullscreen {display:block;}
+}
+	
+@font-face { font-family: 'msyhbd'; src: url('../fonts/msyhbd.ttf'); }
+	 
+	body,
+div,
+dl,
+dt,
+dd,
+li,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+button,
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+}
+acronym,
+abbr,
+fieldset,
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+* {
+    background: no-repeat;
+}
+
+html, body, div {
+    height:100%;
+    width:100%;
+}
+
+body {TEXT-ALIGN: center;}
+#center { MARGIN-RIGHT: auto; MARGIN-LEFT: auto; }
+
+
+body {
+	padding:0;
+	margin:0;
+	overflow:hidden;
+    background-color:#666;
+    background-repeat:repeat;
+     /*background:url(bg.jpg) center; */
+}
+body {
+	/*background-color: pink; //用于着色 */
+	/*background-image: linear-gradient(to bottom, blue 0%, pink 100%);  //用于 body */
+}
+	
+div {
+	margin:0px;
+	padding:0px;
+}	  
+
+#myCanvas {
+    margin: 0px;
+    padding: 0px;
+	
+/* 	border-radius: 12px;
+	-moz-border-radius: 12px; */
+	/* background: url(./game.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat no-repeat;*/
+	
+/* 	border: 1px solid #222;  */
+}
+
+input
+    {
+		margin: 0px;
+		padding-left: 1px;
+        height:0px;
+        width:0px;
+        left:0px; 
+        top:0px;
+        position:absolute; 
+		overflow:hidden;
+        font-family:  'Microsoft Yahei',simsun,verdana,helvetica;
+	}
+
+.button {
+/*background: url(./transparent.png);*/
+border:1px solid #57a71a;
+font-family:'Microsoft YaHei';
+}
+
